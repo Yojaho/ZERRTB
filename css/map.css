@@ -1,0 +1,93 @@
+/* CSS Document */
+html{ background-color:#f3f3f3; width:100%; height:728px;overflow:auto;overflow-x:hidden}
+body{ }
+
+.quanbu{width: 1280px;margin: 0 auto;}
+.head{margin-top: 50px; }
+.head_s{ width:1280px; height:50px; border-bottom:1px solid #000000; margin-bottom: 20px;}
+.logo{float: left;margin-left: 50px;}
+.sousuo{float:right; margin-top: 12.5px; margin-right: 15px; cursor: pointer;}
+.wenben{height:25px;width: 150px;display:none;margin-top:10px;float:right;background: none;border-top: none;border-left: none;border-right: none;border-bottom: 2px solid #BBB;outline: none;font-family: "微软雅黑";font-size: 18px;}
+.head_x {width:1280px;height: 40px;margin-left: 900px;}
+.head_x div{height: 20px;float: left;margin-right: 30px;font-family:"微软雅黑";font-size: 16px;}}
+.head a{ color:#000000;}
+
+.content{ width: 1280px;height: 60px; background-color: #fff;line-height: 60px;}
+.content_z{float: left;margin-bottom: 30px;font-family: "微软雅黑";font-size: 16px;margin-left: 20px;}
+.content_y{float: right;padding-right: 20px;padding-top: 10px;}
+
+/* 地图搜索 */
+.s_con{position: relative;float: left;display: block;width: 200px;height: 40px;}
+.s_con input{display: inline-block;border: 0px;width: 100%;height: 38px;line-height: 40px;padding-left:10px;}
+.s_con .clear{display: none;position: absolute;right: 0px;top:6px;width: 25px;height: 25px;background-size: 25px 25px;cursor:pointer;}
+.s_btn{float: left;display: block;background-color: #009DFF;width: 100px;height: 40px;line-height: 40px;color: #fff;font-size: 13px;text-align: center;cursor: pointer;}
+/* 腾讯地图API */
+.container{width:1280px;height:640px}
+.result{text-align: center;font-size: 13px;color: #16A6FF;font-family: "微软雅黑";margin-top:10px;}
+.infoDiv{width:1280px; height: 180px; border:1px solid #fff; margin-bottom:30px; background-color:#fff;}
+
+
+.Other{width: 1280px;}
+.Other_z{float: left;}
+.xilie{width: 634px; height: 70px; background-color: #FFFFFF;font-size: 18px; font-family: "微软雅黑";}
+.xilie_1{margin-left: 30px;font-size: 16px;font-family: "微软雅黑";line-height: 70px;float: left;color:#000000;}
+.zuozhibiao{float: right; line-height: 70px; margin: 23px 20px;}
+.Other_y{float: right;}
+.xunzhao{width: 634px; height: 70px; background-color: #FFFFFF;font-size: 18px; font-family: "微软雅黑";}
+.xunzhao_1{margin-left: 30px;font-size: 16px;font-family: "微软雅黑";line-height: 70px;float: left;}
+
+
+
+.foot{width: 1280px;height: 70px;background-color: #FFFFFF; float: left; margin-top: 30px;}
+.guanyu{font-size: 16px; font-family: "微软雅黑"; line-height:70px; float: left; margin-left: 50px;} 
+.guanzhu{ float: right; margin-top: 13.5px; margin-right: 50px;}
+.guanzhu img{width: 250px;margin-top: 8px;}
+.bottom{width: 1280px; font-family:"微软雅黑";font-size: 11px; float: left; }
+.bottom div{background-color: #fff;text-align: center;margin-bottom: 20px;margin-top: 2px;}
+
+a:visited {color:#000000;} 
+.foot_s a{ color:#000000;}
+
+@media screen and (max-width:450px){
+html{width: 100% !important; height:auto !important;}
+
+.quanbu{width: 100% !important; height:auto !important; margin: 0 auto !important;overflow-x: hidden; }
+.head{margin-top: 3.125em;}
+.head_s{ width: 100% !important; border-bottom:0.18em solid #000000 !important; margin-bottom: 1.25em;}
+.logoimg{width: 80% !important;}
+.sousuoimg{width: 80% !important;}
+.head_x {width: 100% !important;height:auto !important;margin-bottom: 1em;float: right;margin-right: -2.2em;}
+.head_x div{margin-top: 0em;height:auto !important;float: left;margin-right: 30px;font-family:"微软雅黑" !important;font-size:0.9em;}
+.wenben{width: 120px;margin-right: 10px;}
+
+.content{width:  100% !important;height: 30px;background-color: #fff;line-height: 30px;margin-top: 60px;}
+.content_z{float: left;margin-bottom: 0px;font-family: "微软雅黑";font-size: 16px;margin-left: 92px;}
+.content_y{float: right;padding-right: 30px;padding-top: 10px;margin-bottom: 10px;}
+
+
+/* 腾讯地图API */
+.container{width: 100% !important; height:450px}
+.result{text-align: center;font-size: 13px;color: #16A6FF;font-family: "微软雅黑";margin-top:10px;}
+.infoDiv{width: 100% !important; height: 180px; border:1px solid #fff; margin-bottom:30px; background-color:#fff;}
+
+
+.Other{width: 100%}
+.xilie{width: 100% !important;background-color: #FFFFFF !important;}
+.xilie_1{margin-left: 1.87em; font-size: 0.08em; font-family: "微软雅黑";line-height: 70px;float: left;}
+.zuozhibiao{float: right; line-height: 70px; margin: 23px 20px;}
+.xunzhao{width: 100% !important;background-color: #FFFFFF !important;}
+.xunzhao_1{margin-left:1.87em; font-size: 0.08em; font-family: "微软雅黑";line-height: 70px;float: left;}
+.wbimg{width: 100% !important;}
+.dtimg{width: 100% !important;}
+
+
+.foot{width: 100% !important;background-color: #FFFFFF !important;float: left!important;margin-top: 10px;}
+.guanyu{font-size: 14px;font-family: "微软雅黑" !important;float: left!important;margin-left: 2em;} 
+.guanzhu{float: right !important;margin-top: -55px;margin-right: 3.12em;}
+.bottom{width: 100% !important;height:auto !important;font-family:"微软雅黑" !important;font-size: 0.68em;margin-top: 0px;float: left!important;}
+.yuandian{width: 50% !important; height:auto !important;}
+.guanzhuimg{width: 60% !important;height:auto !important;margin-top: -3.7em;margin-left: 1em;float: right;margin-right: -1.5em;}
+
+
+
+}

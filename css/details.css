@@ -1,0 +1,69 @@
+﻿/* CSS Document */
+html{ background-color:#f3f3f3; width:100%; height:728px;overflow:auto;overflow-x:hidden}
+body{ }
+
+.quanbu{width: 1280px;margin: 0 auto;}
+.head{margin-top: 50px;}
+.head_s{ width:1280px; height:50px; border-bottom:1px solid #000000; margin-bottom: 20px;}
+.logo{float: left;margin-left: 50px;}
+.sousuo{float:right; margin-top: 12.5px; margin-right: 15px; cursor: pointer;}
+.wenben{height:25px;width: 150px;display:none;margin-top:10px;float:right;background: none;border-top: none;border-left: none;border-right: none;border-bottom: 2px solid #BBB;outline: none;font-family: "微软雅黑";font-size: 18px;}
+.head_x {width:1280px;height: 40px;margin-left: 900px;}
+.head_x div{height: 20px;float: left;margin-right: 30px;font-family:"微软雅黑";font-size: 16px;}
+.head a{ color:#000000;}
+
+
+.content{width: 1280px;height: 600px;background-color: #FFFFFF;padding-top: 50px;padding-bottom: 50px;}
+.imgzuo{width: 640px; height: 600px;float: left;  text-align:center;}
+.imgzuo a{text-decoration: none;}
+.wzyou{width: 640px; height: 600px; float: right;}
+.title{font-family:"微软雅黑";font-size: 24px;}
+.bg{font-family:"微软雅黑";font-size: 14px;margin-top: 45px;}
+.xunzhao{border: 1px solid #666;width: 150px;height: 50px;font-size: 16px;font-family: "微软雅黑";color: #444;text-align: center;line-height: 50px;cursor: pointer;margin-left: 243px;margin-top: 30px;}
+.goumai{border: 1px solid #666;width: 150px;height: 50px;font-size: 16px;font-family: "微软雅黑";color: #444;text-align: center;line-height: 50px;cursor: pointer;margin-left: 220px;margin-top: 90px;}  
+
+
+.foot{width: 1280px;height: 70px;background-color: #FFFFFF; float: left; margin-top: 30px;}
+.guanyu{font-size: 16px;font-family: "微软雅黑";line-height:70px;float: left;margin-left: 50px;} 
+.guanzhu{ float: right; margin-top: 13.5px; margin-right: 50px;}
+.guanzhu img{width: 250px;margin-top: 8px;}
+.bottom{width: 1280px; font-family:"微软雅黑";font-size: 11px; float: left; }
+.bottom div{background-color: #fff;text-align: center;margin-bottom: 20px;margin-top: 2px;}
+
+a:visited {color:#000000;} 
+.foot_s a{ color:#000000;}
+
+@media screen and (max-width:450px){
+html{width: 100% !important; height:auto !important;}
+
+.quanbu{width: 100% !important; height:auto !important; margin: 0 auto !important;overflow-x: hidden; }
+.head{margin-top: 3.125em;}
+.head_s{width: 100% !important;border-bottom: 1px solid #000000 !important;margin-bottom: 1.25em;}
+.logoimg{width: 100px !important;margin-left: -25px;}
+.sousuoimg{width: 80% !important;}
+.head_x {width: 100% !important;height:auto !important;margin-bottom: 1em;float: right;margin-right: -2.2em;}
+.head_x div{margin-top: 0em;height:auto !important;float: left;margin-right: 30px;font-family:"微软雅黑" !important;font-size:0.9em;}
+.wenben{width: 120px;margin-right: 10px;}
+
+
+.content{width: 100% !important;background-color: #FFFFFF;margin-top: 4em;padding-bottom: 17em;}
+.imgzuo{width: 100% !important; height:auto !important;float: left;  text-align:center; }
+.imgzuo img{width: 60%;padding-bottom: 3em;}
+.wzyou{width: 100% !important; height:auto !important; float: right;}
+.title{font-family:"微软雅黑";font-size: 18px;margin-left: 50px;}
+.bg{font-family:"微软雅黑";font-size: 12px;margin-top: 20px;margin-left: -55px;}
+.xunzhao{display: none;}
+.goumai{border: 1px solid #000;width: 120px;height: 40px;font-size: 12px;font-family: "微软雅黑";color: #444;text-align: center;line-height: 40px;cursor: pointer;margin-left: 114px;margin-top: 19px;}  
+
+
+
+
+.foot{width: 100% !important;background-color: #FFFFFF !important;float: left!important;}
+.guanyu{font-size: 14px;font-family: "微软雅黑" !important;float: left!important;margin-left: 2em;} 
+.guanzhu{float: right !important;margin-top: -55px;margin-right: 3.12em;}
+.bottom{width: 100% !important;height:auto !important;font-family:"微软雅黑" !important;font-size: 0.68em;margin-top: 0px;float: left!important;}
+.yuandian{width: 50% !important; height:auto !important;}
+.guanzhuimg{width: 60% !important;height:auto !important;margin-top: -3.7em;margin-left: 1em;float: right;margin-right: -1.5em;}
+
+
+}
